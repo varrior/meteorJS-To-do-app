@@ -11,3 +11,7 @@
   <li>Add and update task description</li>
   <li>Limitations for not logged in users</li>
 </ul>
+
+<h1>Installation</h1>
+<pre>meteor npm install
+meteor</pre>
