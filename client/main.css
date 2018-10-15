@@ -1,0 +1,169 @@
+body {
+  padding: 50px 10px;
+  font-family: sans-serif;
+}
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: none;
+}
+.accordion {
+  margin-bottom: 25px;
+
+}
+.accordion .card:first-of-type {
+  border-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.card-header:first-child {
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-bottom: none;
+  border-radius: .25rem;
+}
+.card:last-child {
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  overflow: hidden;
+}
+.card-body .editableDescription {
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  min-width: 100px;
+  width: calc(100% - 30px);
+}
+.input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.input-group-prepend {
+  margin-right: -1px;
+}
+.input-group-append, .input-group-prepend {
+  display: -ms-flexbox;
+  display: flex;
+}
+.input-group>.input-group-prepend>.input-group-text {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group-lg>.input-group-prepend>.input-group-text {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.input-group-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: .375rem .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+}
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.input-group-lg>.form-control {
+  height: 34px;
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+.input-group>.form-control {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-group-append {
+  margin-left: -1px;
+}
+.input-group-append {
+  display: -ms-flexbox;
+  display: flex;
+}
+.input-group>.input-group-append>.btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.glyphicon {
+  top: auto;
+}
+.addDescription
+{
+  margin: 15px 0;
+  border-radius: 0;
+}
+.newDes {
+  padding: 15px;
+}
+textarea {
+  resize: vertical;
+  min-height: 70px;
+}
+.removeTask {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 6px;
+}
+.editDescription {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  color:#666;
+  right: 6px;
+}
+.editDescription:hover{
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
