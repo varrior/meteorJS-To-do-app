@@ -15,3 +15,9 @@
 <h1>Installation</h1>
 <pre>meteor npm install
 meteor</pre>
+
+<h1>Contributors</h1>
+Piotr Sikora
+
+<h1>License</h1>
+No license.
